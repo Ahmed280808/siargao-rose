@@ -1,0 +1,196 @@
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,700;1,800&family=Barlow+Condensed:wght@400;500;600;700;800;900&display=swap');
+=======
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+>>>>>>> bd28705 (initial commit)
+=======
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Jost:wght@300;400;500;600&display=swap');
+>>>>>>> 30692b7 (premium redesign with real photos and reviews)
+=======
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,700;1,800&family=Barlow+Condensed:wght@400;500;600;700;800;900&display=swap');
+>>>>>>> 7a4c2f5 (bold urban redesign)
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+  font-family: "Barlow", sans-serif;
+  font-weight: 400;
+  overflow-x: clip;
+  background: #ffffff;
+  color: #111111;
+=======
+  font-family: "DM Sans", sans-serif;
+  overflow-x: clip;
+>>>>>>> bd28705 (initial commit)
+=======
+  font-family: "Jost", sans-serif;
+  font-weight: 300;
+  overflow-x: clip;
+  background: #FAFAF8;
+  color: #1a2e1a;
+>>>>>>> 30692b7 (premium redesign with real photos and reviews)
+=======
+  font-family: "Barlow", sans-serif;
+  font-weight: 400;
+  overflow-x: clip;
+  background: #ffffff;
+  color: #111111;
+>>>>>>> 7a4c2f5 (bold urban redesign)
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@layer base {
+  :root {
+<<<<<<< HEAD
+<<<<<<< HEAD
+    --background: 0 0% 100%;
+<<<<<<< HEAD
+=======
+    --background: 0 0% 100%;
+>>>>>>> 7a4c2f5 (bold urban redesign)
+    --foreground: 0 0% 7%;
+    --primary: 130 60% 20%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 130 50% 28%;
+    --secondary-foreground: 0 0% 100%;
+    --accent: 130 60% 20%;
+    --accent-foreground: 0 0% 100%;
+    --muted: 0 0% 96%;
+    --muted-foreground: 0 0% 45%;
+<<<<<<< HEAD
+    --card: 0 0% 100%;
+    --card-foreground: 0 0% 7%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 0 0% 7%;
+    --border: 0 0% 90%;
+    --input: 0 0% 90%;
+    --ring: 130 60% 20%;
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+    --radius: 0.125rem;
+  }
+}
+
+.font-condensed {
+  font-family: "Barlow Condensed", sans-serif;
+=======
+    --foreground: 222 47% 11%;
+    
+    --primary: 199 89% 32%;
+    --primary-foreground: 0 0% 100%;
+    
+    --secondary: 162 91% 42%;
+    --secondary-foreground: 0 0% 100%;
+    
+    --accent: 17 88% 48%;
+    --accent-foreground: 0 0% 100%;
+    
+    --muted: 210 40% 96%;
+    --muted-foreground: 215 16% 47%;
+    
+=======
+    --background: 60 6% 98%;
+    --foreground: 120 24% 14%;
+
+    --primary: 130 35% 22%;
+    --primary-foreground: 60 6% 98%;
+
+    --secondary: 130 28% 32%;
+    --secondary-foreground: 60 6% 98%;
+
+    --accent: 130 20% 18%;
+    --accent-foreground: 60 6% 98%;
+
+    --muted: 90 12% 94%;
+    --muted-foreground: 120 8% 42%;
+
+>>>>>>> 30692b7 (premium redesign with real photos and reviews)
+=======
+>>>>>>> 7a4c2f5 (bold urban redesign)
+    --card: 0 0% 100%;
+    --card-foreground: 0 0% 7%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 0 0% 7%;
+    --border: 0 0% 90%;
+    --input: 0 0% 90%;
+    --ring: 130 60% 20%;
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+    --radius: 0.125rem;
+  }
+}
+
+<<<<<<< HEAD
+.font-display {
+  font-family: "Cormorant Garamond", serif;
+}
+
+@layer components {
+  .btn-primary {
+    background: #1e3d1e;
+    color: #fafaf8;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    font-size: 0.7rem;
+    font-weight: 500;
+    padding: 1rem 2.5rem;
+    border: 1px solid #1e3d1e;
+    transition: all 0.3s ease;
+  }
+  .btn-primary:hover {
+    background: transparent;
+    color: #1e3d1e;
+  }
+  .btn-outline {
+    background: transparent;
+    color: #fafaf8;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    font-size: 0.7rem;
+    font-weight: 500;
+    padding: 1rem 2.5rem;
+    border: 1px solid rgba(255,255,255,0.7);
+    transition: all 0.3s ease;
+  }
+  .btn-outline:hover {
+    background: rgba(255,255,255,0.1);
+  }
+>>>>>>> bd28705 (initial commit)
+=======
+.font-condensed {
+  font-family: "Barlow Condensed", sans-serif;
+>>>>>>> 7a4c2f5 (bold urban redesign)
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+}
+=======
+}
+>>>>>>> bd28705 (initial commit)
+=======
+  .tracking-luxury {
+    letter-spacing: 0.15em;
+  }
+  .tracking-wide-luxury {
+    letter-spacing: 0.08em;
+  }
+=======
+>>>>>>> 7a4c2f5 (bold urban redesign)
+}
+>>>>>>> 30692b7 (premium redesign with real photos and reviews)
